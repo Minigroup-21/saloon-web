@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(245, 245, 245);
+    font-family:Arial, Helvetica, sans-serif;
+    
+  }
+  p{
+    color: #1C0D33;
+  }
+  .big-container{
+    position: relative;
+    height: 100vh;
+    width: 140vh;
+    margin-left: 16%; 
+   }
+  
+  .header{
+       background-image: linear-gradient(to right top,rgba(51, 3, 51, 0.421),rgba(170, 93, 170, 0.3)
+      ), 
+      url(../photos/istockphoto-623477902-170667a.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 630px;
+      padding-top: 550px;
+    }
+    .cameron{
+      position: absolute;
+      top:400px;
+      left: 85px;
+
+    }
+    .cameron-image{
+      height: 380px;
+      width: 280px;
+      border-radius: 30px;
+    }
+    .icon-2{
+      position: absolute;
+      top: 93%;
+      left: 45%;
+      font-size: x-large;
+      color:orange;
+    }
+  span{
+    margin:0 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .mini-container{
+    position: absoulute;
+    height: 160vh;
+    background-color: white;
+    border-top-left-radius : 80px;
+ }
+ .heart{
+     position: absolute;
+     top:520px;
+     left: 85%;
+     background-color: white;
+     height: 75px;
+     width: 75px;
+     border-radius: 100px;
+     text-align: center;
+     font-size: xx-large;
+     box-shadow: 3px 3px 6px  rgba(0, 0, 0, 0.552);
+     
+  }
+  .fa-heart-o{
+    margin-top: 25px;
+    
+  }
+ .writings-1{
+    position: absolute;
+    top: 77%;
+    left: 45%;
+    }
+  .large-writings-1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .smaller-writings-1{
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.578);
+  }
+  .content-1{
+      position: absolute;
+      top:110%;
+      left: 8%;
+      font-size: xx-large;
+      font-weight: bold;
+      border-bottom: 3px solid rgba(255, 68, 0, 0.7);
+      width: 400px;
+      display: block;
+      padding-bottom: 8px;
+      
+  }
+.content-2{
+    position: absolute;
+    top:125%;
+    left: 8%;
+   
+   
+}
+.larger-writings{
+    font-size: 32px;
+    font-weight:200;
+}
+.smaller-writings{
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.578);
+    margin-top: 10px;
+}
+.price{
+    margin: -73px 500px;
+    font-size: 32px;
+    font-weight: bold;
+
+
+}
+.button{
+    margin: 30px;
+    margin-left: 700px;
+    text-transform: uppercase;
+    left: 350%;
+    background-color:rgba(255, 68, 0, 0.7);
+    padding: 12px 50px;
+    border-radius: 100px;
+    font-size: x-large;
+    color: white;
+    outline: none;
+    border: none;
+    transition: all 0.2s;
+}
+.button:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.538);
+  }
+  .button:active{
+    transform: translateY(-3%);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  .content-3{
+    position: absolute;
+    top:140%;
+    left: 8%;
+    margin: 20px 0;
+}
+.content-4{
+    position: absolute;
+    top:160%;
+    left: 8%;
+    margin: 20px 0;
+}
+.content-5{
+    position: absolute;
+    top:180%;
+    left: 8%;
+    margin: 20px 0;
+}
+.footer{
+    position: absolute;
+    top: 200%;
+    left: 8%;
+    height: 200px;
+    width: 860px;
+    padding: 40px;
+    background-color: rgba(40, 6, 71, 0.814);
+    border-radius: 50px;
+    text-align: center;
+}
+.footer p{
+     color: white;
+}
+
